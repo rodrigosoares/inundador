@@ -4,9 +4,9 @@
 
 ##Uso
 
-A ferramenta recebe como parâmetros a URL ou o IP do servidor a receber as requisições, bem como o tempo em segundos entre as requisições. Uso:
+A ferramenta recebe como parâmetros a URL ou o endereço IP do servidor a receber as requisições, bem como o tempo em segundos entre as requisições.
 
-`$ ruby inundador.rb [url] [tempo]`
+Uso: `$ ruby inundador.rb [url] [tempo]`
 
 Requer a linguagem Ruby instalada para ser executada.
 
