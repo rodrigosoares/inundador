@@ -1,6 +1,6 @@
 #Inundador - versão 1.0
 
-*Inundador* é uma ferramenta de envio automático de requisições HTTP. A ferramenta é voltada para análise do comportamento do servidor testado e foi desenvolvida como parte de trabalho de conclusão de curso intitulado "Negação de Serviço na Nuvem", do Bacharelado em Ciência da Computação da Universidade Federal Fluminense.
+*Inundador* é uma ferramenta de envio automático de requisições HTTP. A ferramenta é voltada para análise do comportamento do servidor testado e foi desenvolvida como parte do trabalho de conclusão de curso intitulado "Negação de Serviço na Nuvem", do Bacharelado em Ciência da Computação da Universidade Federal Fluminense.
 
 ##Uso
 
