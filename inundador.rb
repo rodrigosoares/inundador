@@ -1,5 +1,6 @@
 # encoding: utf-8
 require 'net/http'
+require 'benchmark'
 
 def request url, tempo
   begin
@@ -7,8 +8,8 @@ def request url, tempo
     uri.path = '/index.html' if uri.path.empty?
     cont = 0
     loop do
-      Net::HTTP.get uri.host, uri.path
-      puts "#{cont += 1}a requisição enviada."
+      rtt = "%.6f" % Benchmark.measure { Net::HTTP.get uri.host, uri.path }.real
+      puts "#{cont += 1}a requisição enviada (RTT = #{rtt} s)."
       sleep tempo
     end
   rescue Interrupt
